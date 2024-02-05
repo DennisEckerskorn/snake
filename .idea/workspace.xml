@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b09b20-c165-4f6a-b58a-e6e64281d68c" name="Changes" comment="" />
+    <list default="true" id="20b09b20-c165-4f6a-b58a-e6e64281d68c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/denniseckerskorn/objects/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denniseckerskorn/objects/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/denniseckerskorn/objects/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denniseckerskorn/objects/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/denniseckerskorn/snakegame/SnakeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denniseckerskorn/snakegame/SnakeGame.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,13 +34,40 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.snakegame [:SnakeGame.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/Dennis/IdeaProjects/snakegame/src/main/java/com/denniseckerskorn/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dennis\IdeaProjects\snakegame\src\main\java\com\denniseckerskorn\objects" />
+      <recent name="C:\Users\Dennis\IdeaProjects\snakegame\src\main\java\com\denniseckerskorn\snakegame" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SnakeGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.denniseckerskorn.snakegame.SnakeGame" />
+      <module name="snakegame.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.denniseckerskorn.snakegame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SnakeGame" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -53,16 +85,5 @@
       <updated>1707127308758</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/denniseckerskorn/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

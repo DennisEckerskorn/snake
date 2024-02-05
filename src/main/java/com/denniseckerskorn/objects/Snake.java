@@ -1,6 +1,6 @@
-package objects;
+package com.denniseckerskorn.objects;
 
-import snakegame.SnakeGame;
+import com.denniseckerskorn.snakegame.SnakeGame;
 
 public class Snake {
 
