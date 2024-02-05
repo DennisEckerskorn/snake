@@ -10,10 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20b09b20-c165-4f6a-b58a-e6e64281d68c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/snakegame_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/denniseckerskorn/objects/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denniseckerskorn/objects/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/denniseckerskorn/snakegame/SnakeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denniseckerskorn/snakegame/SnakeGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,31 +72,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build snakegame.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.snakegame [:SnakeGame.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.snakegame [build].executor&quot;: &quot;Run&quot;,
-    &quot;JAR Application.snakegame.jar.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Dennis/IdeaProjects/snakegame/src/main/java/com/denniseckerskorn/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15332031&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build snakegame.executor": "Run",
+    "Gradle.snakegame [:SnakeGame.main()].executor": "Run",
+    "Gradle.snakegame [build].executor": "Run",
+    "JAR Application.snakegame.jar.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/Dennis/IdeaProjects/snakegame/src/main/java/com/denniseckerskorn/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15332031",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Dennis\IdeaProjects\snakegame\src\main\java\com\denniseckerskorn\objects" />
       <recent name="C:\Users\Dennis\IdeaProjects\snakegame\src\main\java\com\denniseckerskorn\snakegame" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.snakegame [build]">
+  <component name="RunManager" selected="Application.SnakeGame">
     <configuration name="SnakeGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.denniseckerskorn.snakegame.SnakeGame" />
       <module name="snakegame.main" />

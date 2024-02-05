@@ -4,7 +4,7 @@ import com.denniseckerskorn.snakegame.SnakeGame;
 
 public class Snake {
 
-    SnakeGame main;
+    private SnakeGame main;
 
     public int direction = 0;
     public int length = 2;
@@ -32,11 +32,15 @@ public class Snake {
         if (direction == 2) snakeX[0]--;
         if (direction == 3) snakeY[0]--;
 
+        //Bucle que controla la colision contra si mismo.
         for (int d = length - 1; d > 0; d--) {
-            if ((snakeX[0] == snakeX[d]) & (snakeX[0] == snakeY[d])) length = d - 2;
+            if ((snakeX[0] == snakeX[d]) && (snakeY[0] == snakeY[d])) { //snakeX[0] == snakeY[d] estaba mal, es snakeY[0]
+                length = - 2;
+                break;
+            }
         }
 
-        if (snakeX[0] > main.WIDTH) snakeX[0] = 0;
+        if (snakeX[0] > main.WIDTH) snakeX[0] = 0; //
         if (snakeX[0] < 0) snakeX[0] = main.WIDTH - 1;
         if (snakeY[0] > main.HEIGHT - 1) snakeY[0] = 0;
         if (snakeY[0] < 0) snakeY[0] = main.HEIGHT - 1;

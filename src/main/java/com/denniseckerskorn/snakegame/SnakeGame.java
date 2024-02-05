@@ -65,14 +65,14 @@ public class SnakeGame extends JPanel implements ActionListener {
 
     public void actionPerformed(ActionEvent e) {
         s.move();
-
-        if ((s.snakeX[0] == a.posX) & (s.snakeY[0] == a.posY)) {
+        //Colsión con la manzana
+        if ((s.snakeX[0] == a.posX) && (s.snakeY[0] == a.posY)) {
             a.setRandomPosition();
             s.length++;
         }
-
+        //Colisión con el cuerpo
         for (int k = 1; k < s.length; k++) {
-            if ((s.snakeX[k] == a.posX) & (s.snakeY[k] == a.posY)) {
+            if ((s.snakeX[k] == a.posX) && (s.snakeY[k] == a.posY)) {
                 a.setRandomPosition();
             }
         }
@@ -84,10 +84,10 @@ public class SnakeGame extends JPanel implements ActionListener {
         public void keyPressed(KeyEvent kEve) {
             int key = kEve.getKeyCode();
 
-            if ((key == KeyEvent.VK_RIGHT) & s.direction != 2) s.direction = 0;
-            if ((key == KeyEvent.VK_DOWN) & s.direction != 3) s.direction = 1;
-            if ((key == KeyEvent.VK_LEFT) & s.direction != 0) s.direction = 2;
-            if ((key == KeyEvent.VK_UP) & s.direction != 1) s.direction = 3;
+            if ((key == KeyEvent.VK_RIGHT) && s.direction != 2) s.direction = 0;
+            if ((key == KeyEvent.VK_DOWN) && s.direction != 3) s.direction = 1;
+            if ((key == KeyEvent.VK_LEFT) && s.direction != 0) s.direction = 2;
+            if ((key == KeyEvent.VK_UP) && s.direction != 1) s.direction = 3;
         }
     }
 }
